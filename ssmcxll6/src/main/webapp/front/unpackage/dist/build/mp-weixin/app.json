@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/chat/chat",
+    "pages/news-detail/news-detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/qiye/list",
+    "pages/qiye/add-or-update",
+    "pages/qiye/detail",
+    "pages/zhaopinxinxi/list",
+    "pages/zhaopinxinxi/add-or-update",
+    "pages/zhaopinxinxi/detail",
+    "pages/qiyeleixing/list",
+    "pages/qiyeleixing/add-or-update",
+    "pages/qiyeleixing/detail",
+    "pages/qiuzhixinxi/list",
+    "pages/qiuzhixinxi/add-or-update",
+    "pages/qiuzhixinxi/detail",
+    "pages/jianli/list",
+    "pages/jianli/add-or-update",
+    "pages/jianli/detail",
+    "pages/mianshiyaoqing/list",
+    "pages/mianshiyaoqing/add-or-update",
+    "pages/mianshiyaoqing/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "大学生就业平台微信小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/zhaopinxinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "招聘信息"
+      },
+      {
+        "pagePath": "pages/jianli/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "简历"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
